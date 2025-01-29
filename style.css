@@ -196,7 +196,7 @@ select{
 }
 @media (max-width: 1250px) {
     .container{
-        max-width: 1024px;
+        max-width: 980px;
         padding: 0 20px;
     }
     .catalog__products{
@@ -215,6 +215,9 @@ select{
     .about__logo{
         height: 250px;
     }
+    .about__title{
+        text-align: center;
+    }
 }
 @media (max-width: 1000px){
     .container{
@@ -227,6 +230,7 @@ select{
     .logo{
         height: 50px;
         width: auto;
+        padding: 0;
     }
     header{
         height: 70px;
